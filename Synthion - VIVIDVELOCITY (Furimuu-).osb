@@ -431,9 +431,6 @@ Sprite,Foreground,Centre,"sb\sky.jpg",320,240
 Sprite,Foreground,Centre,"sb\blank.jpg",320,240
  S,0,126772,,1
  F,0,126772,127241,1,0
-Sprite,Foreground,Centre,"sb\borders.png",320,240
- S,0,3023,130732,1
- M,0,55534,,320.5851,240
 Sprite,Foreground,Centre,"sb\synthion-textblur.png",320,240
  S,0,4194,,0.55
  P,0,4194,,A
@@ -505,13 +502,13 @@ Sprite,Foreground,Centre,"sb\lyrics\a ride.png",370,240
  MY,22,66408,66908,200,180
  F,0,62788,63088,0,1
  F,0,66408,66708,1,0
-Sprite,Foreground,Centre,"sb\lyrics\on this.png",170,240
+Sprite,Foreground,Centre,"sb\lyrics\on this.png",190,240
  S,0,64194,,0.35
  MY,22,64194,64694,280,260
  MY,22,66408,66908,260,240
  F,0,64194,64494,0,1
  F,0,66408,66708,1,0
-Sprite,Foreground,Centre,"sb\lyrics\rocketship.png",380,240
+Sprite,Foreground,Centre,"sb\lyrics\rocketship.png",400,240
  S,0,64696,,0.35
  MY,22,64696,65196,287,267
  MY,22,66408,66908,267,247
@@ -529,5 +526,27 @@ Sprite,Foreground,Centre,"sb\lyrics\by love.png",380,240
  MY,22,70293,70793,248,228
  F,0,68179,68479,0,1
  F,0,70293,70593,1,0
+Sprite,Foreground,Centre,"sb\lyrics\spread.png",190,240
+ S,0,70464,,0.35
+ MY,22,70464,70964,260,240
+ MY,22,73006,73506,240,220
+ F,0,70464,70764,0,1
+ F,0,73006,73306,1,0
+Sprite,Foreground,Centre,"sb\lyrics\your wings.png",390,240
+ S,0,71929,,0.35
+ MY,22,71929,72429,260,240
+ MY,22,73006,73506,240,220
+ F,0,71929,72229,0,1
+ F,0,73006,73306,1,0
+Sprite,Foreground,Centre,"sb\lyrics\look up.png",240,240
+ S,0,73081,,0.35
+ MY,22,73081,73581,230,210
+ F,0,73081,73381,0,1
+ F,0,76148,77554,1,0
+Sprite,Foreground,Centre,"sb\lyrics\at the.png",410,240
+ S,0,73081,,0.35
+ MY,22,73081,73581,223,203
+ F,0,73081,73381,0,1
+ F,0,76148,77554,1,0
 //Storyboard Layer 4 (Overlay)
 //Storyboard Sound Samples
