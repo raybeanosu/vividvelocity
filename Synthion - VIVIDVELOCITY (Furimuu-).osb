@@ -1,0 +1,533 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+Sprite,Background,Centre,"bg.jpg",320,240
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Animation,Foreground,Centre,"sb\vvintro\vvintro.jpg",320,240,33,33,LoopOnce
+ S,0,1616,,0.45
+ F,0,1616,2642,1
+Animation,Foreground,Centre,"sb\vvintro\vvintro.jpg",320,240,33,33,LoopOnce
+ S,0,88335,,0.45
+ F,0,88335,89361,1
+Animation,Foreground,Centre,"sb\vvintro\vvintro.jpg",320,240,33,33,LoopOnce
+ S,0,127006,,0.45
+ F,0,127182,128208,0.7,0
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,3023,24585,0.5
+ F,0,14589,,0.9970743
+Sprite,Foreground,Centre,"sb\star.jpg",320,240
+ P,0,3023,,A
+ S,0,3023,24585,0.4441144
+Sprite,Foreground,Centre,"sb\shooting stars.png",320,240
+ S,0,3023,,0.7015772
+ M,0,3023,24585,320,101.9063,146.7977,350.592
+Sprite,Foreground,Centre,"sb\title card.jpg",320,240
+ M,0,6773,,320,240
+ S,0,6773,,0.4324113
+ F,0,6773,8057,0,1
+ F,0,10054,11523,1,0
+Sprite,Foreground,Centre,"sb\title card.jpg",320,240
+ S,0,11284,,0.2100571
+ M,0,11284,14273,152.064,94.29942
+ F,0,11284,14273,0,1
+ F,0,14273,16148,1,0.9993309
+Sprite,Foreground,Centre,"sb\Synthion.png",320,240
+ S,0,11263,,0.48
+ F,0,11263,14148,0,1
+ M,0,11263,16148,520.3943,280.3749
+Sprite,Foreground,Centre,"sb\Synthion.png",320,240
+ S,0,18023,,0.48
+ M,0,18023,24585,520.3943,280.3749
+Sprite,Foreground,Centre,"sb\title card.jpg",320,240
+ S,0,18023,,0.2100571
+ M,0,18023,24585,152.064,94.29942
+Sprite,Foreground,Centre,"sb\blank.jpg",320,240
+ F,0,18023,18491,0.4294857,0
+Sprite,Foreground,Centre,"sb\blank.jpg",320,240
+ F,0,23000,24500,0,1
+ F,0,24500,24585,1
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,25523,33023,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ F,0,25523,,0.5
+ S,0,25523,33023,0.5
+ P,0,25523,33023,A
+Sprite,Foreground,Centre,"sb\star.jpg",320,240
+ P,0,25523,,A
+ S,0,25523,33023,0.4441144
+Sprite,Foreground,Centre,"sb\shooting stars.png",320,240
+ S,0,25523,,0.7015772
+ M,0,25523,33023,320,101.9063,244.9535,192.383
+Sprite,Foreground,Centre,"sb\Synthion.png",320,240
+ S,0,25523,,0.48
+ M,0,25523,33023,520.3943,280.3749
+Sprite,Foreground,Centre,"sb\title card.jpg",320,240
+ S,0,25523,,0.2100571
+ M,0,25523,33023,152.064,94.29942
+Sprite,Foreground,Centre,"sb\blank.jpg",320,240
+ S,0,25523,,1
+ F,0,25523,25991,1,0
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,33491,38882,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ P,0,33491,,A
+ F,0,33491,38882,0.5
+ S,0,33491,38882,0.5
+Sprite,Foreground,Centre,"sb\star.jpg",320,240
+ P,0,33491,,A
+ S,0,33491,38882,0.4441144
+Sprite,Foreground,Centre,"sb\shooting stars.png",320,240
+ S,0,33491,,0.7015772
+ M,0,33491,38882,320,101.9063,244.9535,192.383
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,38999,39233,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,39351,39585,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,39702,39878,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,39995,40024,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,40054,40523,0.5
+Sprite,Foreground,Centre,"sb\star.jpg",320,240
+ P,0,38999,,A
+ S,0,38999,39233,0.4441144
+Sprite,Foreground,Centre,"sb\star.jpg",320,240
+ P,0,39351,,A
+ S,0,39351,39585,0.4441144
+Sprite,Foreground,Centre,"sb\star.jpg",320,240
+ P,0,39702,,A
+ S,0,39702,39936,0.4441144
+Sprite,Foreground,Centre,"sb\star.jpg",320,240
+ P,0,40054,,A
+ S,0,40054,40523,0.4441144
+Sprite,Foreground,Centre,"sb\Synthion.png",320,240
+ S,0,33491,,0.48
+ M,0,33491,40523,520.3943,280.3749
+Sprite,Foreground,Centre,"sb\title card.jpg",320,240
+ S,0,33491,,0.2100571
+ M,0,33491,40523,152.064,94.29942
+Sprite,Foreground,Centre,"sb\blank.jpg",320,240
+ S,0,33491,,1
+ F,0,33491,33959,1,0
+Sprite,Foreground,Centre,"sb\blank.jpg",320,240
+ S,0,40054,,1
+ F,0,40054,40523,0,1
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,40523,54585,0.5
+ F,0,53648,55288,1,0
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ P,0,40523,,A
+ F,0,40523,53648,0.5
+ S,0,40523,54585,0.5
+ F,0,53648,55288,0.5,0
+Sprite,Foreground,Centre,"sb\star.jpg",320,240
+ P,0,40523,,A
+ S,0,40523,54585,0.4441144
+ F,0,53648,55288,1,0
+Sprite,Foreground,Centre,"sb\shooting stars.png",320,240
+ S,0,40523,,0.7015772
+ M,0,40523,54585,320,101.9063,244.9535,192.383
+ F,0,53648,55288,1,0
+Sprite,Foreground,Centre,"sb\blank.jpg",320,240
+ L,40523,48
+  F,0,0,117,0,0.05
+  F,0,117,156,0.05,0
+ L,48491,33
+  F,0,0,117,0,0.05
+  F,0,117,156,0.05,0
+ P,0,48491,,A
+Sprite,Foreground,Centre,"sb\Synthion.png",320,240
+ S,0,40523,,0.48
+ M,0,40523,54585,520.3943,280.3749
+ F,0,53648,55288,1,0
+Sprite,Foreground,Centre,"sb\title card.jpg",320,240
+ S,0,40523,,0.2100571
+ M,0,40523,77554,152.064,94.29942
+ F,0,53648,55288,1,0
+Sprite,Foreground,Centre,"sb\blank.jpg",320,240
+ F,0,48491,48813,1,0
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ F,0,55523,56023,0,0.1
+ S,0,55523,77554,0.5
+ F,0,56023,77554,0.1,0.65
+Sprite,Foreground,Centre,"sb\star.jpg",320,240
+ F,0,55523,,1
+ P,0,55523,,A
+ S,0,55523,77554,0.4441144
+Sprite,Foreground,Centre,"sb\shooting stars.png",320,240
+ S,0,55523,,0.7015772
+ F,0,55523,56023,0,0.75
+ M,0,55523,77554,320,101.9063,244.9535,192.383
+Sprite,Foreground,Centre,"sb\blank.jpg",320,240
+ F,0,40523,40845,1,0
+Sprite,Foreground,Centre,"sb\Synthionbw.png",320,240
+ F,0,55523,56023,0,0.25
+ M,0,55528,54585,520.3943,280.3749
+ S,0,55528,,0.48
+ P,0,55528,,A
+ F,0,56023,70523,0.25,0.45
+ F,0,70528,77554,0.45,0.25
+Sprite,Foreground,Centre,"sb\title card.jpg",320,240
+ S,0,55523,,0.2100571
+ P,0,55523,,A
+ F,0,55523,70523,0.25,0.45
+ M,0,55523,77554,152.064,94.29942
+ F,0,70523,77554,0.45,0.25
+Sprite,Foreground,Centre,"sb\blank.jpg",320,240
+ F,0,76148,77437,0,1
+ F,0,77437,77554,1
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,78023,80366,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,80835,83178,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ F,0,80835,,0.5
+ P,0,80835,,A
+ S,0,80835,83178,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,83648,83882,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ F,0,80835,83178,0.25
+ P,0,83648,,A
+ S,0,83648,83882,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,83999,84233,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ P,0,83999,,A
+ F,0,83999,84233,0.75
+ S,0,83999,84233,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,84351,84585,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ P,0,84351,,A
+ F,0,84351,84585,0.75
+ S,0,84351,84585,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,84702,84936,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ P,0,84702,,A
+ F,0,84702,84936,0.75
+ S,0,84702,84936,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,85054,85288,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ P,0,85054,,A
+ F,0,85054,85288,0.75
+ S,0,85054,85288,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,85405,85639,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ P,0,85405,,A
+ F,0,85405,85639,0.75
+ S,0,85405,85639,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,85757,85991,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ P,0,85757,,A
+ F,0,85757,85991,0.75
+ S,0,85757,85991,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,86108,86460,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ P,0,86108,,A
+ F,0,86108,86460,0.75
+ S,0,86108,86460,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,90210,97710,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ L,90210,48
+  F,0,0,117,0.05,0.2
+  F,0,117,156,0.2,0.05
+ L,98178,33
+  F,0,0,117,0.05,0.2
+  F,0,117,156,0.2,0.05
+ P,0,90210,,A
+ S,0,90210,97710,0.5
+Sprite,Foreground,Centre,"sb\star.jpg",320,240
+ P,0,90210,,A
+ S,0,90210,97710,0.4441144
+Sprite,Foreground,Centre,"sb\shooting stars.png",320,240
+ L,90210,2
+  M,0,0,3750,320,101.9063,244.9535,192.383
+ S,0,90210,,0.7015772
+Sprite,Foreground,Centre,"sb\title card.jpg",320,240
+ S,0,90210,,0.2100571
+ P,0,90210,,A
+ M,0,90210,97710,152.064,94.29942
+Sprite,Foreground,Centre,"sb\blank.jpg",320,240
+ L,25523,48
+  F,0,0,117,0,0.05
+  F,0,117,156,0.05,0
+ L,33491,33
+  F,0,0,117,0,0.05
+  F,0,117,156,0.05,0
+ P,0,25523,,A
+Sprite,Foreground,Centre,"sb\blank.jpg",320,240
+ M,0,90210,,320,240
+ F,0,90210,90444,1,0
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,98178,103569,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ L,98178,48
+  F,0,0,117,0.05,0.2
+  F,0,117,156,0.2,0.05
+ P,0,90210,,A
+ S,0,98178,97710,0.5
+Sprite,Foreground,Centre,"sb\star.jpg",320,240
+ P,0,98178,,A
+ S,0,98178,103569,0.4441144
+Sprite,Foreground,Centre,"sb\shooting stars.png",320,240
+ L,98178,2
+  M,0,0,3750,320,101.9063,244.9535,192.383
+ S,0,98178,,0.7015772
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,103686,103920,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,104038,104272,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,104389,104565,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,104624,104711,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,104741,104917,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,104975,105063,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,105092,105210,0.5
+Sprite,Foreground,Centre,"sb\star.jpg",320,240
+ P,0,103686,,A
+ S,0,103686,103920,0.4441144
+Sprite,Foreground,Centre,"sb\star.jpg",320,240
+ P,0,104038,,A
+ S,0,104038,104272,0.4441144
+Sprite,Foreground,Centre,"sb\star.jpg",320,240
+ P,0,104389,,A
+ S,0,104389,104623,0.4441144
+Sprite,Foreground,Centre,"sb\title card.jpg",320,240
+ M,0,98178,,152.064,94.29942
+ S,0,98178,,0.2100571
+ P,0,98178,,A
+ F,0,98178,103569,1
+Sprite,Foreground,Centre,"sb\title card.jpg",320,240
+ M,0,103686,,152.064,94.29942
+ S,0,103686,,0.2100571
+ F,0,103686,103920,1
+Sprite,Foreground,Centre,"sb\title card.jpg",320,240
+ M,0,104038,,152.064,94.29942
+ S,0,104038,,0.2100571
+ F,0,104038,104272,1
+Sprite,Foreground,Centre,"sb\title card.jpg",320,240
+ M,0,104389,,152.064,94.29942
+ S,0,104389,,0.2100571
+ F,0,104389,104565,1
+Sprite,Foreground,Centre,"sb\title card.jpg",320,240
+ M,0,104624,,152.064,94.29942
+ S,0,104624,,0.2100571
+ F,0,104624,104946,1
+Sprite,Foreground,Centre,"sb\title card.jpg",320,240
+ M,0,104975,,152.064,94.29942
+ S,0,104975,,0.2100571
+ F,0,104975,105210,1
+Sprite,Foreground,Centre,"sb\blank.jpg",320,240
+ M,0,98178,,320,240
+ F,0,98178,98412,1,0
+Sprite,Foreground,Centre,"sb\Synthion.png",320,240
+ F,0,90210,,0.9
+ S,0,90210,,0.48
+ P,0,90210,,A
+ M,0,90210,105210,520.3943,280.3749
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,105210,112710,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ L,105210,48
+  F,0,0,117,0.05,0.2
+  F,0,117,156,0.2,0.05
+ L,113178,33
+  F,0,0,117,0.05,0.2
+  F,0,117,156,0.2,0.05
+ P,0,90210,,A
+ S,0,105210,112710,0.5
+Sprite,Foreground,Centre,"sb\star.jpg",320,240
+ P,0,105210,,A
+ S,0,105210,112710,0.4441144
+Sprite,Foreground,Centre,"sb\shooting stars.png",320,240
+ L,105210,2
+  M,0,0,3750,320,101.9063,244.9535,192.383
+ S,0,105210,,0.7015772
+Sprite,Foreground,Centre,"sb\Synthion.png",320,240
+ S,0,105210,,0.48
+ P,0,105210,,A
+ M,0,105210,112710,520.3943,280.3749
+Sprite,Foreground,Centre,"sb\title card.jpg",320,240
+ S,0,105210,,0.2100571
+ P,0,105210,,A
+ M,0,105210,112710,152.064,94.29942
+Sprite,Foreground,Centre,"sb\blank.jpg",320,240
+ M,0,105210,,320,240
+ F,0,105210,105444,1,0
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,113178,118569,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ L,113178,33
+  F,0,0,117,0.05,0.2
+  F,0,117,156,0.2,0.05
+ P,0,113178,,A
+ S,0,113178,118569,0.5
+Sprite,Foreground,Centre,"sb\star.jpg",320,240
+ P,0,113178,,A
+ S,0,113178,118335,0.4441144
+Sprite,Foreground,Centre,"sb\shooting stars.png",320,240
+ L,113178,2
+  M,0,0,3750,320,101.9063,244.9535,192.383
+ S,0,113178,,0.7015772
+ F,0,113178,118335,1
+ F,0,118335,,0
+Sprite,Foreground,Centre,"sb\Synthion.png",320,240
+ S,0,113178,,0.48
+ P,0,113178,,A
+ M,0,113178,118335,520.3943,280.3749
+Sprite,Foreground,Centre,"sb\title card.jpg",320,240
+ S,0,113178,,0.2100571
+ P,0,113178,,A
+ M,0,113178,118335,152.064,94.29942
+Sprite,Foreground,Centre,"sb\blank.jpg",320,240
+ M,0,113178,,320,240
+ F,0,113178,113412,1,0
+Sprite,Foreground,Centre,"sb\blank.jpg",320,240
+ M,0,117397,,320,240
+ F,0,117397,118217,0,1
+ F,0,118217,118335,1
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,118686,118920,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,119038,119272,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,119389,119623,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,120210,120444,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,120561,120795,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,120913,121147,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,121264,121498,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,122085,122319,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,122436,122670,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,122788,123022,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,123139,123373,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,123491,123725,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,123842,124076,0.5
+Sprite,Foreground,Centre,"sb\sky.jpg",320,240
+ S,0,124194,126303,0.5
+Sprite,Foreground,Centre,"sb\blank.jpg",320,240
+ S,0,126772,,1
+ F,0,126772,127241,1,0
+Sprite,Foreground,Centre,"sb\borders.png",320,240
+ S,0,3023,130732,1
+ M,0,55534,,320.5851,240
+Sprite,Foreground,Centre,"sb\synthion-textblur.png",320,240
+ S,0,4194,,0.55
+ P,0,4194,,A
+ F,4,4194,4894,1,0.3
+ F,0,6304,6504,0.3,1
+ F,3,6504,6804,1,0
+Sprite,Foreground,Centre,"sb\synthion-text.png",320,240
+ S,0,4194,,0.55
+ F,19,4194,4894,0,1
+ F,18,6304,6704,1,0
+Sprite,Foreground,Centre,"sb\star.png",285,194
+ S,0,3960,5659,0,0.6
+ R,0,3960,5659,0,3.14
+ MX,16,3960,5659,285,418
+ MY,15,3960,5659,180,190
+ R,0,5659,6304,3.14,3.65
+ F,18,6304,6804,1,0
+Sprite,Foreground,Centre,"sb\we can fly.png",320,240
+ F,0,78023,80366,1
+ S,0,78023,80366,0.45
+Sprite,Foreground,Centre,"sb\touch the sky.png",320,240
+ F,0,80835,83179,1
+ S,0,80835,83179,0.45
+Sprite,Foreground,Centre,"sb\you and i.png",320,240
+ S,0,83648,,0.45
+ F,0,83648,83882,1
+ F,0,83999,84233,1
+ F,0,84351,84585,1
+ F,0,84702,84878,1
+ F,0,85054,85288,1
+ F,0,85347,85581,1
+ F,0,85757,85991,1
+ F,0,86108,86460,1
+Sprite,Foreground,Centre,"",320,240
+ M,0,118335,,320,240
+Sprite,Foreground,Centre,"sb\lyrics\high.png",320,240
+ S,0,55534,,0.35
+ MY,22,55534,56034,260,240
+ MY,21,57835,58335,240,220
+ F,0,55534,55834,0,1
+ F,0,57835,58135,1,0
+Sprite,Foreground,Centre,"sb\lyrics\this feeling.png",320,240
+ S,0,58335,,0.35
+ MY,22,58335,58835,220,200
+ MY,22,62373,62873,200,180
+ F,0,58335,58835,0,1
+ F,0,62373,62673,1,0
+Sprite,Foreground,Centre,"sb\lyrics\not.png",230,240
+ S,0,59038,,0.35
+ MY,22,59038,59538,280,260
+ MY,22,62373,62873,260,240
+ F,0,59038,59338,0,1
+ F,0,62373,62673,1,0
+Sprite,Foreground,Centre,"sb\lyrics\enough.png",370,240
+ S,0,60679,,0.35
+ MY,22,60679,61179,280,260
+ MY,22,62373,62873,260,240
+ F,0,60679,61179,0,1
+ F,0,62373,62673,1,0
+Sprite,Foreground,Centre,"sb\lyrics\take.png",250,240
+ S,0,62554,,0.35
+ MY,22,62554,63154,220,200
+ MY,22,66408,66908,200,180
+ F,0,62554,61179,0,1
+ F,0,66408,66708,1,0
+Sprite,Foreground,Centre,"sb\lyrics\a ride.png",370,240
+ S,0,62788,,0.35
+ MY,22,62788,63288,220,200
+ MY,22,66408,66908,200,180
+ F,0,62788,63088,0,1
+ F,0,66408,66708,1,0
+Sprite,Foreground,Centre,"sb\lyrics\on this.png",170,240
+ S,0,64194,,0.35
+ MY,22,64194,64694,280,260
+ MY,22,66408,66908,260,240
+ F,0,64194,64494,0,1
+ F,0,66408,66708,1,0
+Sprite,Foreground,Centre,"sb\lyrics\rocketship.png",380,240
+ S,0,64696,,0.35
+ MY,22,64696,65196,287,267
+ MY,22,66408,66908,267,247
+ F,0,64696,64996,0,1
+ F,0,66408,66708,1,0
+Sprite,Foreground,Centre,"sb\lyrics\fueled.png",220,240
+ S,0,66597,,0.35
+ MY,22,66597,67097,260,240
+ MY,22,70293,70793,240,220
+ F,0,66597,66897,0,1
+ F,0,70293,70593,1,0
+Sprite,Foreground,Centre,"sb\lyrics\by love.png",380,240
+ S,0,68179,,0.35
+ MY,22,68179,68679,268,248
+ MY,22,70293,70793,248,228
+ F,0,68179,68479,0,1
+ F,0,70293,70593,1,0
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
