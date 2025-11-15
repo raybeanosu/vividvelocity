@@ -558,5 +558,23 @@ Sprite,Foreground,Centre,"sb\lyrics\sky.png",395,240
  F,0,75930,76230,0,1
  MY,22,75930,76430,295,275
  F,0,76148,77554,1,0
+Sprite,Foreground,Centre,"sb\lyrics\we.png",200,240
+ S,0,77621,,0.35
+ MY,22,77621,78023,260,240
+Sprite,Foreground,Centre,"sb\lyrics\can.png",300,240
+ S,0,77788,,0.35
+ MY,22,77788,78023,260,240
+Sprite,Foreground,Centre,"sb\lyrics\touch.png",200,240
+ S,0,80425,,0.35
+ MY,22,80425,80835,260,240
+Sprite,Foreground,Centre,"sb\lyrics\the.png",320,240
+ S,0,80601,,0.35
+ MY,22,80601,80835,260,240
+Sprite,Foreground,Centre,"sb\lyrics\you.png",215,240
+ S,0,83237,,0.35
+ MY,22,83237,83648,280,260
+Sprite,Foreground,Centre,"sb\lyrics\and.png",325,240
+ S,0,83499,,0.35
+ MY,22,83499,83648,260,242
 //Storyboard Layer 4 (Overlay)
 //Storyboard Sound Samples
